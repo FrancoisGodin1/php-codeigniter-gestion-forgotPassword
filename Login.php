@@ -1,7 +1,9 @@
 <?php
 
-// methode concernée par la modif
-{
+
+class Login extends CI_Controller {
+    
+    // methode concernée par la modif
     function forgotPassword()
     {
         $this->load->view('LoginForgotPassword');
