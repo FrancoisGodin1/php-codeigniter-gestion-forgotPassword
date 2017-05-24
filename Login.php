@@ -1,7 +1,7 @@
 <?php
 
 // methode concernée par la modif
-
+{
     function forgotPassword()
     {
         $this->load->view('LoginForgotPassword');
@@ -23,8 +23,5 @@
                 echo "login incorrect";
             }
         }
-        
-        
     }
-
 }
